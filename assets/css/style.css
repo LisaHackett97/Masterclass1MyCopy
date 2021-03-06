@@ -109,7 +109,8 @@ hr{
 footer{
     padding-bottom: 10px;
 }
-.list-inline-item i{
+/* .list-inline-item i{ */
+    footer a{
    font-size: 50px;
     margin: 0 auto;
     color:#fd7e14;
