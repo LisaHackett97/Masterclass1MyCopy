@@ -1,45 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Masterclass1
 
-Welcome USER_NAME,
+First Masterclass project 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Strategy - Project Goal
 
-## Gitpod Reminders
+The primary goal for Tandoori Chicken - Restaurant is to provide high quality delicious food and customer service  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Member goal 
 
-`python3 -m http.server`
+1. Members Goal:
 
-A blue button should appear to click: *Make Public*,
+* Easy to navigate throughout the website
+* Access to different types of menues 
+* Value for money
+* Provide healthy eating 
 
-Another blue button should appear to click: *Open Browser*.
+2. Business Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* To attract new members 
+* To offer affordable range for menu fees 
+* Highlight the range of services provided 
+* Improve brand awarnes throughout the website and social media
+* Increase reveneuw 
 
-A blue button should appear to click: *Make Public*,
+## User story 
 
-Another blue button should appear to click: *Open Browser*.
+1. As a prospective Customer, I want to be able to view the site on a desktopcomputer/laptop.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+2. As a prospective Customer, I want to be able to access all pages easily so that I cannavigate throughout the site without any confusion.
 
-## Updates Since The Instructional Video
+3. As a prospective Customer, I want to be able to review what the restaurant offers so Ican make informed decisions on whether to use them or not.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. As a prospective Customer, I want to be able to review the restaurant's covid guidelinesso I can make an informed decision on whether I want to visit or have home delivery.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+5. As a prospective Customer, I want the option to navigate to a menu, either within theapplication or externally so that I can order my meal
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Skelleton 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+First wireframe is main page with the navigation bar, a hero image and on the footer containing social meadia and contact us 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Gallery wireframe](/assets/images/1hack.PNG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Second page will contain the menu with pricing list and on the footer containing social meadia and contact us 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Gallery wireframe](/assets/images/1hack.PNG)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Third page is containing customers reviews and on the footer containing social meadia and contact us 
 
---------
+![Gallery wireframe](/assets/images/1hack.PNG)
 
-Happy coding!
+##images
+Indian-food 1&3
+Photo by Chan Walrus from Pexels
+Indian Food 2
+Photo by Marvin Ozz from Pexels
+All photos from Pexels.com

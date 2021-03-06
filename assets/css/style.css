@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.reviews{
+    width: 90%;
+}
+
+.box-shadow{
+    height: 100%;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand{
+    padding-left: 10%;
+}
+
+.navbar-right{
+    padding-right: 5%;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.logo-menu {
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.navbar{
+    margin:0;
+    padding:0;
+    border:0;
+    max-height: 80px;
+}
+
+.tidy-nav{
+    padding:0 5%;
+}
+
+.container-fluid
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.list-inline
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.jumbotron{
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+hr{
+    border: 2px solid white;
+}
+
+
+/*----Logo img Start----*/
+.bg-color{
+    background-color: #F8E8D8;
+}
+/*----Logo img End----*/
+
+
+/*----hero img Start----*/
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/Indian_food2.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*----hero img End----*/
+
+/*----Footer----*/
+footer{
+    padding-bottom: 10px;
+}
+.list-inline-item i{
+   font-size: 50px;
+    margin: 0 auto;
+    color:#fd7e14;
+    max-width: height 80px;
+}
+.list-inline li{
+    padding-left: 35px;
+}
+
+.here {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-style{
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+	.logo{
+		display: none;
+	}
+}
