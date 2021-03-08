@@ -6,70 +6,64 @@
     border:0;
 }
 
-.reviews{
-    width: 90%;
+header {
+    background-color: #F8E8D8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:5px;
+    padding-top: 5px;
 }
 
-.box-shadow{
-    height: 100%;
-    margin: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+ 
+.brand {
+       background: url("../images/Indian\ logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;}
+/* }
+.list-group {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+} */
+a.nav-link {
+    background-color: grey;
+    color: #F8E8D8;
+}
+li.list-group-item {
+    background-color: grey;
+    border: none;
 }
 
-.navbar-brand{
-    padding-left: 10%;
+.list-group-item.active {
+    background-color: white;
 }
-
-.navbar-right{
-    padding-right: 5%;
+/* li .active{
+    color: #F8E8D8;
+    background-color: gray;
+} */
+.list-group-item:hover{
+    background-color: #BE4F00;
+    color:white;
+    font-weight:bold;
 }
-
-.logo{
-    margin: 0 auto;
-}
-
-.logo-menu {
-    text-align: center;
-    justify-content: center;
-
-    position: relative;
-
-}
-
-.navbar{
-    margin:0;
-    padding:0;
-    border:0;
-    max-height: 80px;
-}
-
-.tidy-nav{
-    padding:0 5%;
-}
-
-.container-fluid
-{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
-.list-inline
-{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
 .jumbotron{
-    color: white;
-    text-shadow: 2px 2px #000000;
+    color: #E2E8EE;
+    font-weight: 600px;
+    /* text-shadow: 2px 2px #000000; */
+    font-style: bold;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 hr{
-    border: 2px solid white;
+    border: 2px solid #BE4F00;
+    border-radius: 1px;
 }
-
 
 /*----Logo img Start----*/
 .bg-color{
@@ -91,29 +85,29 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+    background-attachment: rgba(0, 0, 0, 0.2);
 }
-
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.0.5);
 }
+
 /*----hero img End----*/
 
 /*----Footer----*/
 footer{
     padding-bottom: 10px;
 }
-/* .list-inline-item i{ */
+
     footer a{
    font-size: 50px;
     margin: 0 auto;
-    color:#fd7e14;
+    color:#BE4F00;
     max-width: height 80px;
 }
 .list-inline li{
@@ -124,6 +118,8 @@ footer{
     font-weight: bold;
     color: #fff;
 }
+
+
 
 .footer-style{
     padding: 10px;
