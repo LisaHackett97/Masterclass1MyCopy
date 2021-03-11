@@ -21,7 +21,7 @@ h1 {
     text-align:center;
 }
 .brand {
-       background: url("/assets/images/logo.png") no-repeat center center;
+      
        height:100px;
        width:190px;
        background-size: cover;
@@ -53,20 +53,6 @@ ul {
     margin-right: 30px;
 }
 
-    /* }
-.list-group {
-    background-color: gray;
-    padding: 0;
-    margin: 0;
-} */
-a.nav-link {
-    background-color: grey;
-    color: #F8E8D8;
-}
-li.list-group-item {
-    background-color: grey;
-    border: none;
-}
 
 li a.active {
     border-bottom: 5px solid #E2E8EE;
@@ -75,12 +61,14 @@ li a.active {
     color: #F8E8D8;
     background-color: gray;
 } */
-li a:hover{
+
+.navbar-nav  a:hover {
     background-color: #BE4F00;
     color:white;
     font-weight:bold;
     text-transform: uppercase;
 }
+
 .jumbotron{
     color: #E2E8EE;
     font-weight: 600px;
@@ -97,6 +85,19 @@ hr{
 /*----Logo img Start----*/
 .bg-color{
     background-color: #F8E8D8;
+    
+}
+#main-logo {
+    width: 190px;
+    height:100px;
+    border-radius: 25px;
+    float: left;
+     
+}
+
+.nav-styles {
+    padding: 0;
+    margin-left: 0;
 }
 /*----Logo img End----*/
 
